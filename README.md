@@ -4,6 +4,10 @@ On-device tomato leaf disease detection for Flutter, powered by a YOLOv8 model
 exported to TensorFlow Lite (INT8 quantized). Everything runs locally — no
 network calls, no accounts.
 
+> **Full documentation:** see [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md) for
+> architecture, the data/storage model, the scan pipeline, setup, and a
+> presentation guide.
+
 ## Features
 
 - **Live scan** — take a photo or pick one from the gallery and classify it on

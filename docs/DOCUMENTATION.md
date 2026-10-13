@@ -1,4 +1,4 @@
-# LeafScan — Technical Documentation
+# Tomato Leaf Scanner — Technical Documentation
 
 **Tomato leaf disease detection on a mobile phone (Flutter + YOLOv8/TFLite)**
 
@@ -26,7 +26,7 @@
 
 ## 1. Overview
 
-LeafScan is an Android/iOS application that lets a farmer **photograph a single
+Tomato Leaf Scanner is an Android/iOS application that lets a farmer **photograph a single
 tomato leaf and get an instant, offline diagnosis** of what is wrong with it.
 It uses a **YOLOv8 object-detection model** exported to **TensorFlow Lite**, and
 runs entirely on the phone (edge inference). There is no account, no upload of
@@ -89,7 +89,7 @@ treatments. An optional AI assistant can answer follow-up questions.
 
 ## 4. System architecture
 
-LeafScan is a single Flutter app with a 4-screen UI and three core modules:
+Tomato Leaf Scanner is a single Flutter app with a 4-screen UI and three core modules:
 
 - **`TomatoDetector`** — loads the TFLite model and turns an image into
   detections.
@@ -167,7 +167,7 @@ The shared `RootPage` state holds the current image, the detections, the chosen
 
 ## 6. How data is saved (storage model)
 
-This is important to state precisely: **LeafScan is stateless across sessions.
+This is important to state precisely: **Tomato Leaf Scanner is stateless across sessions.
 It has no database and no user account. Nothing it produces is persisted — all
 results live in RAM and disappear when the app is closed.**
 
@@ -218,7 +218,7 @@ When a bundled sample leaf is used, `_loadSample()` copies the asset bytes to a
 temporary file (`Directory.systemTemp/leafscan_sample_*.jpg`) so the rest of the
 pipeline can treat it like a normal photo. User photos taken with the camera or
 picked from the gallery are handled by `image_picker`, which returns a cached
-`File` path; LeafScan only **reads** it.
+`File` path; Tomato Leaf Scanner only **reads** it.
 
 ### 6.5 What leaves the device
 
@@ -545,5 +545,5 @@ Short answers you can use when presenting the app.
 
 ---
 
-*Document generated for the LeafScan project. For build/setup see
+*Document generated for the Tomato Leaf Scanner project. For build/setup see
 [§10](#10-setup-and-build); for the model and class list see [§9](#9-the-detection-model).*

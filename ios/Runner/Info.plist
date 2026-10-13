@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Leafscan</string>
+	<string>Tomato Leaf Scanner</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -27,11 +27,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>LeafScan uses the camera to photograph a tomato leaf for disease analysis.</string>
+	<string>Tomato Leaf Scanner uses the camera to photograph a tomato leaf for disease analysis.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>LeafScan needs access to your photos so you can pick a leaf image to analyse.</string>
+	<string>Tomato Leaf Scanner needs access to your photos so you can pick a leaf image to analyse.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>LeafScan may access the microphone when capturing a leaf photo.</string>
+	<string>Tomato Leaf Scanner may access the microphone when capturing a leaf photo.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

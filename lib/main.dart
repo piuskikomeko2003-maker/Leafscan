@@ -21,7 +21,7 @@ class LeafScanApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final scheme = ColorScheme.fromSeed(seedColor: const Color(0xFF0B8379));
     return MaterialApp(
-      title: 'LeafScan',
+      title: 'Tomato Leaf Scanner',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: scheme,
@@ -239,7 +239,7 @@ class _HomePage extends StatelessWidget {
         const SizedBox(height: 40),
         const Icon(Icons.eco, size: 96, color: Color(0xFF0B8379)),
         const SizedBox(height: 20),
-        Text('LeafScan',
+        Text('Tomato Leaf Scanner',
             textAlign: TextAlign.center,
             style: GoogleFonts.bricolageGrotesque(
                 fontSize: 44,
@@ -620,7 +620,7 @@ class _ResultPage extends StatelessWidget {
         ],
         const SizedBox(height: 20),
         const Text(
-          'LeafScan gives an AI estimate from one photo, not a lab test. '
+          'Tomato Leaf Scanner gives an AI estimate from one photo, not a lab test. '
           'Confirm serious outbreaks with your local extension officer.',
           style: TextStyle(fontSize: 12, color: Colors.grey),
         ),

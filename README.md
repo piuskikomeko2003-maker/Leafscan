@@ -1,4 +1,4 @@
-# LeafScan
+# Tomato Leaf Scanner
 
 On-device tomato leaf disease detection for Flutter, powered by a YOLOv8 model
 exported to TensorFlow Lite (INT8 quantized). Everything runs locally — no
@@ -70,5 +70,5 @@ the row is hidden.
 
 ## Disclaimer
 
-LeafScan gives an AI estimate from a single photo, not a lab test. Confirm
+Tomato Leaf Scanner gives an AI estimate from a single photo, not a lab test. Confirm
 serious outbreaks with your local extension officer.

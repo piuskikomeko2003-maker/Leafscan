@@ -23,7 +23,7 @@ const String _model = 'deepseek-chat';
 
 String _systemPrompt(DiseaseInfo? info) {
   final b = StringBuffer()
-    ..writeln('You are LeafScan, a friendly assistant for tomato plant health.')
+    ..writeln('You are Tomato Leaf Scanner, a friendly assistant for tomato plant health.')
     ..writeln(
         'Give practical, low-cost advice for smallholder farmers. Prefer organic '
         'and cultural controls; mention chemical options with a reminder to follow '
